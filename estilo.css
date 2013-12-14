@@ -1,0 +1,45 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+    background: #CCC;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Ubuntu',sans-serif;
+    font-size: 12px;
+}
+#menu {
+    background: orange;
+    font-size: 1.5em;
+    padding: 5px;
+}
+
+#content {
+    padding: 20px;
+}
+#content div{
+    margin: 0 auto;
+    width: 300px;
+    padding: 5px;
+}
+#content div label {
+    font-size: 1.4em;
+} 
+select, input{
+    font-size: 1.4em;
+    float: right;
+}
+#content #dado {
+    top: 200;
+    width: 200px;
+    height: 200px;
+    background: white;
+    margin: 0 auto;
+    font-size: 13em;
+    text-align: center;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
